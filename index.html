@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fuentes de Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">   
+    <!----------------------------->
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="menu" style="width: 300px;">
+        <ul id="ul_menu">
+            <li><a href="#" onclick="mosOc(experiencias)">Experiencias</a></li>
+            <li><a href="#" onclick="mosOc(habilidades)">Habilidades</a></li>
+        </ul>
+    </div>
+
+    <div id="contenido" stydle="margin-left: 300px;">
+        <img src="https://randomuser.me/api/portraits/women/9.jpg" alt="no se ha podido cargar la imagen de perfil">
+        <p><span>Mi nombre:</span> Camila Sanchez <br>
+            <span>Mi correo electronico:</span> camila.sanchez@example.com <br>
+            <span>Nací el día:</span> 12/2/1989 <br>
+            <span>Mi Domicilio:</span> 180 Frances Ct <br>
+            <span>Celular:</span> (282) 811-5862 <br>
+        </p>
+        
+        <div id="experiencias" style="display: none;">
+            <p><span>EXPERIENCIAS</span><br>
+                abril 2012 - junio 2015 <span>Recepcionista</span> en clinica Los Andes<br>
+                <ul class="ul_jus">
+                    <li> Gestión de consultas según los pacientes y la discponibilidad de los médicos.</li>
+                    <li> Facturación y cobro de los servicios y cosultas utilizados por los pacientes.</li>
+                    <li> Manejo de llamadas y atencion a pacientes, proveedores y personal.</li>
+                    <li> Creacion y envío de facturas.</li>
+                </ul>
+
+                noviembre 2021 - presente <span>Recepcionista</span> en Axionistas S.A<br>
+                <ul class="ul_jus">
+                    <li> Manejo de llamadas, recopilación de información personal y gestión de horarios.</li>
+                    <li> Administración de la base de datos de la oficina.</li>
+                    <li> Distribución de nóminas y configuración fiscal de la oficina principal.</li>
+                    <li> Atención a clientes.</li>
+                </ul>
+            </p>
+        </div>
+
+        <div id="habilidades" style="display: none;">
+            <p><span>HABILIDADES</span>
+                <ul class="ul_jus">
+                    <li> Manejo de todo el paquete de Office.</li>
+                    <li> Pensamiento analítico.</li>
+                    <li> Trabajo en equipo.</li>
+                    <li> Comunicación efectiva.</li>
+                    <li> Gestión de documentación.</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
